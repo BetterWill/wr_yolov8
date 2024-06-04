@@ -1,0 +1,17 @@
+
+
+train: detection/train # train images (relative to 'path') 1052 images
+val: detection/val # val images (relative to 'path') 225 images
+test:  # test images (relative to 'path') 227 images
+
+# Classes
+names:
+  0: bus
+  1: truck
+  2: train
+  3: people
+  4: bicycle
+  5: track
+  6: moto
+  7: car
+
